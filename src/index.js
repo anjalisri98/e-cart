@@ -7,8 +7,8 @@ const multer = require("multer")
 app.use(bodyParser.json());
 
 
-
-mongoose.connect("mongodb+srv://sudhanshu48:123abc@functionup.veeix.mongodb.net/group47Database", {
+//use your own db connection string
+mongoose.connect("mongodb+srv://AnjaliSrivastava:e5YgmiAmxGsiLRwp@cluster0.i6luj.mongodb.net/group26Database?retryWrites=true&w=majority", {
     useNewUrlParser: true
 })
 .then( () => console.log("MongoDb is connected"))
